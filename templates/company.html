@@ -1,0 +1,6 @@
+{% extends 'base.html' %}        {#继承父模板的页面，必须放在第一行#}
+{% load static %}
+{% block content %}
+    这是公司页面
+    <img src="{% static 'front/timg.jpg' %}" alt="">
+{% endblock %}

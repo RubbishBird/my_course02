@@ -1,0 +1,5 @@
+{% extends 'base.html' %}        {#继承父模板的页面，必须放在第一行#}
+{% block content %}
+    这是首页的内容
+    <p>{{ block.super }}</p>            {#block.super用于继承父模板的内容#}
+{% endblock %}
